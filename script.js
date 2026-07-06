@@ -30,7 +30,7 @@ function playRound(playerChoice, computerChoice) {
 
 function playGame() {
     let playerChoice = prompt("Choose Rock, Paper or Scissors");
-playerChoice = playerChoice.toLowerCase();
+    playerChoice = playerChoice.toLowerCase();
 
 
     let computerChoice = getComputerChoice();
