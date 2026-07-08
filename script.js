@@ -29,16 +29,18 @@ function playRound(playerChoice, computerChoice) {
 }
 
 function playGame() {
+      for (let i = 1; i <= 5; i++) {
     let playerChoice = prompt("Choose Rock, Paper or Scissors");
     playerChoice = playerChoice.toLowerCase();
 
 
     let computerChoice = getComputerChoice();
-
+    console.log("Round:", i); 
     console.log("Player:", playerChoice);
     console.log("Computer:", computerChoice);
 
     playRound(playerChoice, computerChoice);
 
+}
 }
 playGame();
