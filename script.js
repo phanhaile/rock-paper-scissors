@@ -80,5 +80,4 @@ if (humanScore > computerScore) {
 }
 
 }
-
 playGame();
